@@ -19,6 +19,8 @@ import 'primevue/resources/themes/tailwind-light/theme.css'
 import 'primevue/resources/primevue.min.css'
 import 'primeicons/primeicons.css'
 
+import Chips from 'primevue/chips'
+
 /* @vueToast */
 import VueToast from 'vue-toast-notification'
 //vuetoast theme
@@ -34,4 +36,5 @@ createApp(App)
     .use(PrimeVue)
     .use(CKEditor)
     .component('AppLayout', AppLayout)
+    .component('Chips', Chips)
     .mount('#app')
